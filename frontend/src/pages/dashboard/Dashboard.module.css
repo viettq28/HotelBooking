@@ -1,0 +1,24 @@
+.container {
+  font-size: 12px;
+}
+
+.container > div:first-child {
+  color: blueviolet !important;
+  font-size: 1rem !important;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.row {
+  display: flex;
+  font-size: inherit !important;
+  gap: 1px;
+  background-color: lightgrey;
+}
+
+.row > * {
+  font-size: inherit !important;
+  padding: 0.5em;
+  background-color: white;
+}

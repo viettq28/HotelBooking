@@ -1,0 +1,21 @@
+.x-mark {
+  display: flex;
+  visibility: hidden;  /* display: flex; */
+  align-items: center;
+}
+
+.container {
+  width: fit-content;
+  display: flex;
+  gap: .5em;
+  padding: .25em;
+  cursor: pointer;
+}
+.container:hover {
+  outline: 1px solid black;
+}
+.container:hover .x-mark {
+  visibility: visible;
+}
+
+

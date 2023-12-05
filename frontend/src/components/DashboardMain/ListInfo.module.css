@@ -1,0 +1,90 @@
+.container {
+  margin-top: 20px;
+  padding: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container > p {
+  font-size: 1.1em;
+}
+
+.container table {
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  font-weight: 500;
+}
+.container table * {
+  font-size: 0.95em;
+}
+
+.container th,
+.container td {
+  position: relative;
+  min-width: 8em;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 8px;
+  text-align: left;
+}
+.container th:first-child,
+.container td:first-child {
+  border-left: 1px solid lightgrey;
+}
+.container th:last-child,
+.container td:last-child {
+  border-right: 1px solid lightgrey;
+}
+
+.container th {
+  padding: 12px 8px;
+  font-weight: 500;
+}
+.container td * {
+  display: inline-block;
+  margin: auto .25em;
+} 
+.container th::after {
+  content: '';
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 30%; /* Điều chỉnh chiều cao của đường viền */
+  border-right: 2px solid lightgrey; /* Điều chỉnh kiểu và độ dày của đường viền */
+}
+
+.checkbox-cell {
+  width: 30px;
+  min-width: auto !important;
+  text-align: center;
+}
+
+.checkbox-cell input {
+  position: absolute;
+  transform: scale(0.9);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.limit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 2em;
+}
+.input-text {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  padding: .5em;
+  font-size: inherit !important;
+  line-height: 1.5em;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  resize: none;
+}
+.input-text:focus {
+  outline: none;
+}

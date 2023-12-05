@@ -1,0 +1,7 @@
+.form input {
+  padding: 10px;
+  border: darkgray solid 1px;
+}
+.form label {
+  font-size: 1.15rem;
+}

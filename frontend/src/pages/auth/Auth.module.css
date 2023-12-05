@@ -1,0 +1,30 @@
+.form {
+  width: 30%;
+  margin: 10rem auto;
+  color: red !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  padding: 12px 8px;
+}
+
+.form p {
+  font-size: 2.5rem;
+  color: black !important;
+  font-weight: 700;
+  margin: auto;
+}
+
+.form button {
+  padding: 10px 0;
+  font-weight: 600;
+  color: white;
+  background-color: royalblue;
+}
+.form button:hover {
+  color: floralwhite;
+  background-color: darkblue;
+}

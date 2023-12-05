@@ -1,0 +1,62 @@
+.container {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.icon0,
+.icon1,
+.icon2,
+.icon3 {
+  position: relative;
+  margin-left: auto;
+  aspect-ratio: 1 / 1;
+  width: 1.3em;
+  padding: 0.5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.icon0 > i,
+.icon1 > i,
+.icon2 > i,
+.icon3 > i {
+  font-size: 0.5em;
+}
+
+.icon0 {
+  background-color: #ffcccc;
+}
+.icon0 > i {
+  color: red;
+}
+
+.icon1 {
+  background-color: #f8edd2;
+}
+.icon1 > i {
+  color: orange;
+}
+
+.icon2 {
+  background-color: #cce6cc;
+}
+.icon2 > i {
+  color: green;
+}
+
+.icon3 {
+  background-color: #e6cce6;
+}
+.icon3 > i {
+  color: purple;
+}
+
+.card-title {
+  font-size: 0.75em;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 1.25em;
+}
+
+.card-value {
+  font-size: 1.4em;
+  line-height: 1em;
+}

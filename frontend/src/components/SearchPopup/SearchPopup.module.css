@@ -1,0 +1,18 @@
+.input-grid {
+    width: 100%;
+}
+.input-grid label {
+    font-size: 13px;
+    color: #343a40;
+}
+
+.input-grid input {
+    height: 1.7rem;
+}
+.btn {
+    background-color: var(--custom-blue);
+    color: aliceblue;
+}
+.btn:hover {
+    background-color: #0d6efd;
+}

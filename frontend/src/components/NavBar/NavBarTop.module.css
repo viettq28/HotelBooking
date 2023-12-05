@@ -1,0 +1,14 @@
+.bg-custom-blue {
+  background-color: var(--custom-blue);
+}
+.navbar-top {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+	color: var(--custom-blue);
+	border-radius: 0;
+}
+/* d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start */

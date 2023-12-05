@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: -.5px;
+}
+
+.desc {
+  font-size: 1.1em;
+  letter-spacing: -.5px;
+  color: rgb(129, 129, 129);
+  line-height: 1.25em;
+}
+
+.max-people {
+  font-size: .9em;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: -.5px;
+}

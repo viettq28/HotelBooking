@@ -1,0 +1,46 @@
+.field {
+  min-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: .5em 0;
+}
+.field label {
+  width: 100%;
+  font-size: .9em;
+  font-weight: 500;
+}
+
+.basis {
+  font-size: 0.85em;
+  color: rgb(154, 154, 154);
+}
+
+.basis, .add-many {
+  padding: .5em .75em;
+}
+.basis,
+.basis:hover,
+.basis:focus,
+.basis:active {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.add-many {
+  font-size: 0.85em;
+  resize: none;
+  outline: none;
+}
+
+.pick {
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.85em;
+  appearance: auto !important;
+}
+
+.pick, .pick:hover, .pick:focus, .pick:active {
+  outline: 1px solid black;
+}
+

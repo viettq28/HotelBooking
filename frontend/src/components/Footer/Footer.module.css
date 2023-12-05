@@ -1,0 +1,9 @@
+.footer-container {
+    margin-top: 2rem;
+}
+
+.footer-container * {
+    color: var(--custom-blue);
+    font-weight: 500;
+    font-size: 12px;
+}

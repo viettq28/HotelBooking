@@ -1,0 +1,7 @@
+.select {
+  width: fit-content;
+  height: fit-content;
+  outline: 1px solid black !important;
+  margin: .25em 0;
+  appearance: auto;
+}

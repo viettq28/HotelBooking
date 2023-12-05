@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  margin: auto;
+  font-size: 2.25em;
+  line-height: 2.5em;
+  animation: spin 1s linear infinite;
+}

@@ -1,0 +1,44 @@
+.bg-custom-blue {
+  background-color: var(--custom-blue);
+}
+.text-custom-blue {
+  color: var(--custom-blue);
+}
+
+.text-custom-green {
+  color: var(--custom-green);
+}
+.rdrMonth {
+  margin: auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+select {
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+option {
+  padding: 10px;
+}
+select, select:hover, select:active, select:focus {
+  border: none;
+  outline: none;
+}

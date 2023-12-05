@@ -1,0 +1,38 @@
+.container {
+  margin-top: 1.2em;
+}
+.container h3 {
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-method {
+  width: 35%;
+  appearance: auto !important;
+  border-radius: 2px;
+  padding: 1em;
+  background-color: rgb(232, 232, 232);
+}
+
+.payment-method, .payment-method:hover, .payment-method:active, .payment-method:focus {
+  outline: 1px solid rgb(145, 145, 145);
+}
+
+.reserve-btn {
+  background-color: #0071C2;
+  width: fit-content;
+  padding: 1em 3em;
+  margin-left: 5em;
+  color: rgb(225, 225, 225);
+  font-weight: 600;
+}
+
+.reserve-btn:hover, .reserve-btn:active{
+  background-color: #01518a;
+  color: white;
+}

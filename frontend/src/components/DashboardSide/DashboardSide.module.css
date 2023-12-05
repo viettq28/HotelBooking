@@ -1,0 +1,20 @@
+.dashboard-side ul {
+  padding-left: 0;
+}
+
+.dashboard-side p, .dashboard-side li {
+  margin-top: 0.5em;
+  padding: 2px;
+}
+
+.dashboard-side ul p {
+  font-size: 0.7em;
+}
+
+.dashboard-side li {
+  font-size: 0.9em;
+  padding-left: 0.5em;
+  color: black;
+}
+
+

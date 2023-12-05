@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  outline: 1px solid black;
+  margin: .25em 0;
+  padding: .25em 1em;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: #008080;
+  color: white;
+}

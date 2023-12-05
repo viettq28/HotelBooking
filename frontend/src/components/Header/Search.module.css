@@ -1,0 +1,37 @@
+.search-field {
+  width: 75%;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 0 0 0.125rem orange;
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.search-field input:not(.date input),
+.search-field i:not(.date i),
+.search-field span:not(.date span) {
+  border: 0 !important;
+  background-color: white !important;
+  font-size: 14px !important;
+}
+.search-field input:not(.date input):focus {
+  outline: none;
+  box-shadow: 0 0 0 0rem white;
+}
+.search-field button:not(.date button),
+.search-field i:not(.date i) {
+  border-radius: 0 !important;
+}
+
+.search-field button:not(.date button):hover {
+  background-color: var(--custom-blue) !important;
+}
+
+.date {
+  position: absolute;
+  /* border: 0; */
+  z-index: 999;
+  top: 100%;
+}

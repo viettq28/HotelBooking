@@ -1,0 +1,52 @@
+.img-container img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+.tag {
+  width: fit-content;
+  background-color: var(--custom-green);
+  color: white;
+  margin-bottom: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.noti-cancel {
+  margin-top: 1rem;
+  color: var(--custom-green);
+}
+.square {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  color: white;
+  background-color: var(--custom-blue);
+  text-align: center;
+}
+
+.square::before {
+  content: attr(data-before);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  width: fit-content;
+  margin-left: auto;
+  background-color: var(--custom-blue);
+  border: 0;
+  color: aliceblue;
+}
+.custom-font {
+  font-size: attr(data-font px) !important;
+}
